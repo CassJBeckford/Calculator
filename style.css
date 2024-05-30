@@ -1,19 +1,26 @@
+.calculator{
+    display: grid;
+    place-items: center;
+    
+}
 
-.search-bar{
+#showCalculation{
     font-size: 90px;
-    width: 300px;
+    width: 490px;
     height: 80px;
     border: none;
     color: white;
     background-color: black;
-    margin-left: 215px;
+    
+   
 }
 .buttons {
  display: grid;
  grid-template-columns: 1fr 1fr 1fr 1fr;
- padding-left: 200px;
- padding-right: 200px;
  margin-top: 40px;
+ min-width: 500px;
+ max-width: 500px;
+
 }
 button {
  font-size: 25px;
